@@ -19,7 +19,7 @@ import techForb.challenge.Model.Planta;
 import techForb.challenge.Service.IPlantaService;
 
 @RestController
-@CrossOrigin (origins = "challengetechforb-99eeb.web.app")
+@CrossOrigin (origins = "https://challengetechforb-99eeb.web.app")
 //@CrossOrigin(origins = "http://localhost:4200")
 public class PlantaController {
 
