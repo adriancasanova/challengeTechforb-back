@@ -25,7 +25,7 @@ import techForb.challenge.utils.JWTUtil;
  * @author Adrian
  */
 @RestController
-@CrossOrigin (origins = "challengetechforb-99eeb.web.app")
+@CrossOrigin (origins = "https://challengetechforb-99eeb.web.app")
 //@CrossOrigin(origins = "http://localhost:4200")
 public class RegistroController {
 
