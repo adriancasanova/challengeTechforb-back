@@ -39,7 +39,7 @@ public class Users  {
 
     @NotNull
     @NotEmpty(message = "La contraseña no puede estar vacio.")
-    @Size(min = 8, max = 20, message = "La contraseña debe tener entre 5 y 20 caracteres.")
+   // @Size(min = 8, max = 20, message = "La contraseña debe tener entre 5 y 20 caracteres.")
     @Getter @Setter @Column(name = "password")
     private String password;
     
